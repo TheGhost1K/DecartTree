@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include <algorithm>
-using namespace std;
+using namespace DecartTree;
  
 inline int gcd(int a, int b){
         return b ? gcd(b,a%b) : a;
