@@ -65,9 +65,10 @@ void erase (pitem & t, int key) {
 int priorities[100005];
  
 int main(){
+#ifdef KP_HOME
         freopen("input.txt","r",stdin);
         freopen("output.txt","w",stdout);
-
+#endif
         int t;
         scanf("%d\n",&t);
         pitem root = NULL;
